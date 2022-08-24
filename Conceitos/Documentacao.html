@@ -1,0 +1,151 @@
+<!--
+    H    T   M     L     
+    HiperText      
+             Markup
+                   Language      
+                            Linguagem de Marcação de HiperTexto
+
+-->
+
+<!--   
+HTML é uma abreviação para Hypertext (hipertexto) Markup (marcação) Language (linguagem), ela não é uma linguagem de programação em si, porém é uma linguagem na forma de escrever, tendo sintaxe e semântica, Hypertext é uma marcação especifica que nos leva a outro texto, isso mais no passado, agora sendo relacionado a imagens, a videos.
+-->
+
+<!-- comentários -->
+
+
+<!-- 
+    Anatomia das Tags
+        -Abertura de tag
+        -Conteúdo
+        -Fechamento de tag
+        -Elementos
+-->
+
+<!-- 
+    Elementos
+        -São o conjunto de uma instrução, uma : <div > xxxx </div>  
+    Elementos Vazios 
+        - São elementos que não tem um conteúdo só recebem os seus atributos, e nada mais, ex.: <img src="" alt="">  | <input type="text">
+-->
+
+<!-- 
+    Atributos HTML
+        - Informações extras
+        - Configurações
+            - <img src="imagem.png" alt="imagem quebrada">
+
+    Atributos Booleanos
+        - Não precisam de conteúdo (Disabled / Enable / Visible)
+            - <input type="text" disabled>
+-->
+
+
+<!-- 
+    Aspas
+        - Omissão
+        - Simples
+        - Duplas
+                    _Boas praticas na maioria das vezes sempre usar Duplas.            
+-->
+
+
+<!-- 
+    Atributos Globais mais utilizados                                       
+        - Class
+        - Contenteditable
+        - Data-*
+        - Hidden
+        - Id
+        - Style
+        - Tabindex
+        - Title        
+        
+                - Class = Além de classificar as Tags, é usada para aplicar estilo css e também para acessar com o Java Script.
+                                ex.: <div class="Carrinho">  conteúdo  </div>
+
+                - Contenteditable = Usado para editar o conteúdo da página, porém não é mantido após salvar.
+                                ex.: <div contentedtable="true">  conteúdo  </div>
+
+                - Data-* = Usado para expandir os tipos de atributos que podemos usar para fazer mais tarde lógica no Java Script , utilizado em css também.
+                                ex.: <div data-qualquer-coisa-aqui="">  conteúdo  </div>                (Pode ser escrito com "-" ou tudo junto.)
+
+                - Hidden = Usado para esconder uma Tag.
+                                ex.: <div class="carrinho" hidden>  conteúdo  </div>
+
+                - Id = Usado apenas 1 por Tag para identificação, para também mais tarde usar no Java Script e css.
+                                ex.: <div id="texto1">  conteúdo  </div>
+                                     <div id="texto2">  conteúdo  </div>
+
+                - Style = Aplica a estilização na Tag, normalmente não se usa "style" dentro da Tag, mas sim em arquivos externos.
+                                ex.: <div style="color: red">  conteúdo  </div>
+
+                - Tabindex = Usado para ordenar o Tab na página.
+                                ex.: <div tabindex="3">  conteúdo  </div>
+                                     <div tabindex="1">  conteúdo  </div>
+                                     <div tabindex="2">  conteúdo  </div>
+
+                - Title = Serve para definir um título para a Tag, quando colocamos o mouse descansando em cima do conteúdo da página.
+
+    Outros Atributos Globais
+        - Vá ao site https://developer.mozilla.org/pt-BR/ .
+-->
+
+
+<!-- 
+    Aninhamento de tags
+        - Fluxo
+        - Hierarquia
+        - Posicionamento dos elementos     
+-->
+
+
+<!-- Aninhamento em HTML significa colocar uma tag dentro da outra, porém não é qualquer tag que podemos colocar dentro de outra, existe uma hierarquia por trás delas, por exemplo: 
+<p> 
+    Texto aleatorio 01 <em> com enfase <em>  em uma parte especifica 
+    <p> Texto aleatorio 02  <em> com enfase <em>  em uma parte especifica  </p> 
+</p>
+
+-->
+
+<!-- 
+    Conteudo do Texto e Caracteres Reservados
+        - Caracteres reservado são caracteres usados no próprio HTML, como < > & " " ' ', não podemos usar nas tags, pois dão erro, mesmo aparecendo na preview o navegador vai tentar ler esses caracteres de alguma forma que faça sentido. Para usarmos precisamos troca-los por outras formas de escrever.
+-->
+
+<!--
+    <br>
+     &nbsp;           ---    Espaço                   ----    ( ) 
+     &lt;             ---    Lower then               ----     <
+     &gt;             ---    Larger then              ----     >
+     &amp;            ---    Ampersand                ----     &
+     &quot;           ---    Quote                    ----     ""
+     &apos            ---    Apostrophe               ----     ''
+-->
+
+<!--
+    Anatomia de um documento HTML
+        -   <!DOCTYPE html>
+            <html lang="pt-br">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Document</title>
+                </head>
+                <body>
+    
+                </body>
+            </html>
+-->
+
+<!--
+<!DOCTYPE html>   — Diz ao navegador que estamos a trabalhar com HTML 5.
+<html>  </html>   — O próprio HTML, elemento raiz, o inicio da cadeia.
+<head>  </head>   — Contém configurações importantes para página, mas não ainda o que o usuário vai ver.
+<meta>            — Onde vai representar vários tipos de metadados da página.
+<title>  </title> — Título da página.
+<body>  </body>   — Onde haverá conteúdo visual da página.
+
+Se quiser facilitar tudo digitando ! o emmet irá completar automaticamente. 
+-->
