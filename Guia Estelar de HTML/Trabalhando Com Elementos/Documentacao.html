@@ -60,12 +60,15 @@
 <!--
     Blockquote
 -->
+
 <blockquote cite="https://developer.mozilla.org/en-us/docs/Web/HTML/Element/blockquote">
     <p>
-        O <strong>Elemento HTML <code>&lt; blockquote &gt;<strong>
+        O <strong>Elemento HTML <code>&lt; blockquote &gt; </code>
+        <strong>
         (ou <em>HTML Block Quotation Element</em>) indica que um texto externo foi citado.)
     </p>
 </blockquote>
+
 
 <!--
     Cite
@@ -91,3 +94,94 @@
     </p>
  </blockquote>
 
+ 
+
+<!--
+    Abreviações
+        - <abbr>
+            -<abbr title="Palavra Completa Sem Abreviação">´PCSA</abbr> 
+-->
+
+<p>
+    Usamos <abbr title="Hypertext Markup Language">HTML</abbr>  para estruturar nossos documentos da web.
+</p>
+<!--
+* Se colocarmos o mouse em cima da abreviação, teremos a palavra inteira.
+-->
+
+<!--
+    Detalhes de Contato
+        - <address>
+    
+    *Mais para usado para passar o contato de quem é o autor do site
+-->
+
+<address>
+    <p>Guilherme Henrique <br>
+    <strong>Recife, PE</strong>
+    </p>
+</address>
+
+<!--
+    Listas de descrição
+        <dl>
+            <dt> </dt>
+            <dd> </dd>
+        </dl>
+
+    * Usado para marcar uma lista de itens e suas descrições.
+-->
+
+<h2>Glossário</h2>
+<dl>
+    <dt>Hypertext</dt>
+    <dd>É um hiper texto com possibilidades...</dd>
+
+    <dt>Markup</dt>
+    <dd>Marcação do texto</dd>
+
+    <dt>Languague</dt>
+    <dd>Linguagem com sua semântica e sintaxe....</dd>
+</dl>
+
+<!--
+    * <dl> </dl> — tag para lista de descrições.
+    * <dt></dt>  — tag para o termo da descrição.
+    * <dd></dd>  — tag para descrição.
+-->
+
+
+<!--
+    Representando códigos de computador
+    <code>
+          - Partes genéricas de código
+    
+    <pre>
+        -Blocos de código, pois essa tag mantém os espaços em branco e recuos as identações que eu colocar no meu código
+-->
+
+<pre>
+    <code>
+        if(bom_dia == true) {
+            docment.querySelector("Body")
+        }
+    </code>
+</pre>
+
+<!--
+    Lembrando que o código acima não é em HTML, é so a referencia a alguma funcionalidade em alguma linguagem, mostrada da forma correta aqui no HTMLs
+-->
+
+<!--
+    Elementos genéricos
+        - <div> </div>
+        - <span> </span>
+
+    *<div>  </div>  — tag usada para agrupar conteúdo.
+    *<span> </span> — tag usada para agrupar texto, em uma ideia mais de linha.
+-->
+
+<div class="cart">
+    <span>Camiseta</span>
+    <span>R$ 99,99</span>
+</div>
