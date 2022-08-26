@@ -27,11 +27,7 @@
                 - _blank        (New Pagina)
 -->
 
-<a href="">  Conteúdo  </a>
-
-<P>
-    Encontre-me:
-</P>
+<h2>Encontre-me:</h2>
 
 <ul>
     <!-- Url Completo -->
@@ -41,5 +37,101 @@
     <!--  Telefone-->
     <li> <a href="tel:+55(81)99975-3425"> Telefone </a> </li>
     <!--  Fragmento-->
-    <li> <a href="#about"> Sobre mim </a> </li>
+    <li> <a href="#Lorem1"> Lorem 01 </a> </li>
+    <li> <a href="#Lorem2"> Lorem 02 </a> </li>
+    <li> <a href="#Lorem3"> Lorem 03 </a> </li>
 </ul>
+
+<h2 id="Lorem1">Lorem 01</h2>
+<p>
+Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+</p>
+
+<h2 id="Lorem2">Lorem 02</h2>
+<p>
+Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+</p>
+
+<h2 id="Lorem3">Lorem 03</21>
+<p>
+Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+</p>
+
+<!--
+    Neste exemplo temos os fragmentos, com o navegador aberto, se clicarmos em qualquer um deles, será adicionado uma # e o nome do respectivo fragmento, mas como faremos a ligação entre o fragmento e a sua respectiva parte? adicionamos o atributo global id="" e colocamos o nome do fragmento dentro dele, o que faz com que sejamos levados até onde está o id na página.
+-->
+
+
+
+<!--
+    Conteúdos dentro de elemento <a> </a>
+
+Qualquer coisa pode ser colocado, até mesmo outras tags, e mais de uma.
+
+Neste exemplo há até imagens.
+
+-->
+
+<a href="http://google.com" title="Ir para google">
+    <h3>Google</h3>
+    <p>Vamos para o google!</p>
+    <img src="https://source.unsplash.com/random" alt="">
+</a>
+
+
+<!--
+    URLs e Caminhos dos arquivos 
+        -Uniform Resource Locator
+            - https://www.rocketseat.com.br
+            - Sequência de texto que define onde algo está localizado na web
+
+        -URL usam caminhos para encontrar arquivos
+
+        -Caminhos dos arquivos
+            -Onde, no explorador de arquivos, um recurso está localizado
+-->
+
+<br>
+<!--
+    Como navegar pelos caminhos ?
+        -Mesmo diretório
+        -Entrando em diretórios
+        -Saindo de diretórios
+        -Diretório raiz (root ou pai)
+-->
+<a href="../Conceitos/Praticando.html">
+<h5>Vamos pra um exercicio pratico do Módulo Conceitos</h5> 
+</a>
+
+<!--
+    - Para o mesmo diretório, local, raiz apenas colocamos o nome do arquivo no href.
+    
+    - Para entrar em um diretório colocamos o nome do diretório e /, como no exemplo "../Conceitos/Praticando.html"
+    
+    - Para sair de um diretório colocamos ../ ,ele sairá do diretório, semelhante a sair de uma caixa que está dentro de outro.
+    
+    - E por fim o diretório raiz especificamente, usamos apenas ./ , o próprio VSCode irá completar.
+-->
+
+<!--
+    URLs Absolutos -X- URLs Relativos
+        -Absolutos
+            -inclui protocolo e nome de domínio
+                -http://www.rocketseat.com.br/projeto/index.html
+            -sempre apontará para o mesmo local, após e absoluto 
+        
+        -Relativos
+            -relativo à página aberta no momento
+            -apotará para lugares diferentes
+-->
+
+<a href="google.com">relativo : ir para o google</a>
+<a href="https://google.com">absoluto : ir para o google</a>
+
+<!--
+    - No caminho absoluto inclui-se o protocolo e o nome de domínio e sempre apontará para o mesmo local, já que é absoluto. Como por exemplo esta URL http://www.rocketseat.com.br/projeto/index.html é absoluto
+    (mesmo não levando a lugar nenhum, é apenas um exemplo).
+
+
+    - No caminho relativo, é relativo à página, pasta aberta, ou seja, se não tiver irá consequentemente dar erro, apontará para lugares diferentes. Como por exemplo apenas google.com.
+-->
