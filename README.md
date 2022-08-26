@@ -10,7 +10,7 @@
 ## Ícones
 
 - :boom: Resolução de bug / Correção
-- :dash: Adicionando Documentação
+- :dash: Documentação
 - :exclamation: Atividade 
 - :star: Projeto
 - :fire: Ajustes finais
