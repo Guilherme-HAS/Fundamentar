@@ -1,0 +1,156 @@
+
+<!--
+    Estaremos vendo agora sobre o elemento <table>, que ajuda na organização de dados, criando tabelas.
+-->    
+<!--
+    Prós
+        - Visualização de dados via linhas e colunas.
+        - Boa acessibilidade para leitura dos dados. 
+    Contras
+        - Pouco flexível
+        - Precisa de estilização para melhor visualização 
+    Não usar
+        - Para criar seu layout
+-->
+
+<!--
+    - Colocaremos o nosso cabeçalho, na tag <thead></thead> e o nosso corpo no <tbody></tbody> e criaremos o rodapé usando <tfoot></tfoot> colocando os dados total.
+
+    - Por fim poderemos colocar a tag <caption></caption> para descrever sobre o que a nossa tabela é, ficando mais ou menos assim:
+-->
+
+<table>
+
+    <caption>Tabela bem construída</caption>
+
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th> | </th>
+            <th>Idade</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Guilherme </td>
+            <td> | </td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>Gustavo</td>
+            <td> | </td>
+            <td>25</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Total:</td>
+            <td> | </td>
+            <td>2 Pessoas</td>
+        </tr>
+    </tfoot>
+
+</table>
+<br>
+<br>
+<br>
+<!--
+    Criação de uma tabela simples
+-->
+
+<!-- Tag da tabela -->
+<table>
+    <!--Nome pra essa tabela-->
+    <caption>Tabela Simples</caption>
+    <!-- Tag da linha-->
+    <tr>
+        <!-- Tag da célula do cabeçalho -->
+        <th>
+            Nome
+        </th>
+        <!-- Tag da segunda célula do cabeçalho-->
+        <th>
+            Idade
+        </th>
+    <!-- Fechamento da Tag da Linha-->
+    </tr>
+    <!-- Tag Linha-->
+    <tr>
+        <!-- Tag de célula do corpo da tabela-->
+        <td>Junior</td>
+        <!-- Tag de célula do corpo da tabela-->
+        <td>31</td>
+    <!-- Fechamento da Tag da Linha-->
+    </tr>
+    <!-- Tag Linha-->
+    <tr>
+        <!-- Tag de célula do corpo da tabela-->
+        <td>Erick</td>
+        <!-- Tag de célula do corpo da tabela-->
+        <td>98</td>
+    <!-- Fechamento da Tag da Linha-->
+    </tr>
+</table>
+
+
+<!--
+    Tabela Complexa
+-->
+<!--
+    2 Lojas
+        - Quantos produtos foram produzidos,quantos vendidos e agrupados por nome dos produtos!
+-->
+
+
+<table>
+    <caption>Produzidos x Vendidos por Loja</caption>
+    <!--Agrupando por colunas-->
+    <colgroup>
+        <col>
+        <col span="2" style="background-color: red">
+        <col span="2" style="background-color: blue;">
+    </colgroup>
+
+    
+<!---Colocamos a tag <colgroup></colgroup>, dentro colocamos 3 <col>, onde na segunda colocamos o atibuto style="background-color: red" e na terceira style="background-color: blue". span="2" para alinharmos a cor com a coluna-->
+
+    <!--CAÇALHO-->
+	<thead>
+        <tr>
+            <th rowspan="2"></th>
+            <th colspan="2">Guilherme Henrique</th>
+            <th colspan="2">Gustavo Felipe</th>
+        </tr>
+        <tr>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+        </tr>
+  </thead>
+<!-- rowspan="2", na primeira linha, para ocupar 2 linhas, empurrando os elementos para o lado-->
+
+<!--CORPO-->
+<tbody>
+    <tr>
+        <!--Cabeçalho da linha-->
+        <th scope="row">Vassouras</th>
+        <td>50</td>
+        <td>30</td>
+        <td>20</td>
+        <td>20</td>
+    </tr>
+    <tr>
+    <!--Cabeçalho da linha-->
+        <th scope="row">Baldes</th>
+        <td>10</td>
+        <td>10</td>
+        <td>30</td>
+        <td>25</td>
+    </tr>
+</tbody>
+</table>
+</table>
+<!--
+    Estaremos usando o atributo scope, que serve permitir que essa acessibilidade saiba que o escopo do cabeçalho é relacionado com, o agrupamento, ou a coluna, ou a linha, o atributo é escrito scope="" .
+-->
