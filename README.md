@@ -16,4 +16,4 @@
 - :star: Projeto
 - :fire: Ajustes finais
 - :heavy_check_mark: Módulo Finalizado
-
+- :camera: : Imagem
