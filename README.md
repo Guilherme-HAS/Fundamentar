@@ -14,6 +14,9 @@
 - :dash: Documentação
 - :exclamation: Atividade 
 - :star: Projeto
-- :fire: Ajustes finais
 - :heavy_check_mark: Módulo Finalizado
+- :page_with_curl: Readme
+- :cyclone: Padrão Git
 - :camera:  Imagem
+- :fire: Ajustes finais
+
