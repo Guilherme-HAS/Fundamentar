@@ -33,6 +33,6 @@
         
         ```css
              @import 'https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'
-        ´´´
-    - Não é recomendado seu uso, pois leva um pouco mais de tempo do que através da tag link, fazendo a página ficar menos responsiva, demorando mais para o carregamento da mesma.
+        
+    * Não é recomendado seu uso, pois leva um pouco mais de tempo do que através da tag link, fazendo a página ficar menos responsiva, demorando mais para o carregamento da mesma.
 
