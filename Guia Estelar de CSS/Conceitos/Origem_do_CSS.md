@@ -24,10 +24,10 @@
 			        }
 	            </style>
             </head>
-        ´´´
+    ´´´
     * Com o Link geralmente no Head do HTML
     ```css
-    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css">
     ´´´
     *  @import
         - Usada dentro do CSS
