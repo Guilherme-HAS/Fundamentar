@@ -25,11 +25,11 @@
 	            </style>
             </head>
     
-    * Com o Link geralmente no Head do HTML
+* Com o Link geralmente no Head do HTML
     ```css
         <link rel="stylesheet" href="style.css">
 
-    *  @import
+*  @import
         - Usada dentro do CSS
         ```css
              @import 'https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'
