@@ -2,7 +2,6 @@
 
 * Finalização do Módulo de guia para CSS, com todos os conceitos necessários para uma boa desenvoltura no seu uso.
 
-## Ordem 
 
 - Conhecendo o CSS
 - Comentários 
